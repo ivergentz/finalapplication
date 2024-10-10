@@ -7,7 +7,7 @@ const Download = () => {
       <Button
         onClick={(e) => {
           window.open(
-            "https://drive.google.com/file/d/1MKThvqhcCzlyEioZdb_-cPHvfN_jmVuy/view?usp=sharing",
+            "https://drive.google.com/file/d/1N6eJmZJYPBoIyWZLwi8s_-t1gcoCtnu2/view?usp=sharing",
             "_blank"
           )
         }}
