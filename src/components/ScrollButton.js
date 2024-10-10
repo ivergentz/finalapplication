@@ -35,7 +35,7 @@ const Button = styled.button`
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
-  color: rgb(208, 45, 38);
+  color: var(--white);
 `
 
 const ButtonUp = styled.button`
@@ -47,5 +47,5 @@ const ButtonUp = styled.button`
   font-weight: bold;
   font-size: 20px;
   cursor: pointer;
-  color: rgb(208, 45, 38);
+  color: var(--white);
 `

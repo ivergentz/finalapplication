@@ -12,7 +12,7 @@ const Contact = () => {
           <p>22767 Hamburg</p>
         </Icon>
         <Icon>
-          <a href='tel:+4915906593897'>⎕ +49 1590 6593897</a>
+          <a href='tel:++4915906593897'>⎕ +49 1590 6593897</a>
         </Icon>
         <Icon>
           <a href={"mailto: ivergentz@gmail.com"}>@ ivergentz@gmail.com</a>
@@ -32,19 +32,23 @@ const Wrapper = styled.section`
   flex-direction: column;
   max-width: 800px;
   padding-bottom: 3vw;
+  background: var(--black);
+  padding: 8vh 3vh 3vh 3vh;
 
   h2 {
     padding: 0 0 5vh 0;
     text-transform: uppercase;
-    text-decoration: underline double;
+    text-decoration: underline;
     background: none;
+    color: var(--white);
   }
 `
 const IconSection = styled.div`
   background: none;
-  width: 90%;
+  width: 100%;
   justify-content: space-between;
   align-items: end;
+  padding-left: 2vh;
 `
 const Icon = styled.div`
   font-size: 1.2rem;
@@ -57,11 +61,13 @@ const Icon = styled.div`
     cursor: pointer;
     font-size: 1rem;
     background: none;
+    color: var(--blue);
   }
 
   p {
     font-size: 1rem;
     background: none;
     text-transform: uppercase;
+    color: var(--blue);
   }
 `

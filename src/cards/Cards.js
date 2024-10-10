@@ -23,8 +23,9 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3vh;
+  padding: 2vh;
   padding-bottom: 0;
+  background: var(--red);
 `
 
 const Card = styled.div`
@@ -32,9 +33,11 @@ const Card = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
+  background: var(--orange);
   margin-bottom: 5vh;
-  border: 0.5px solid red;
+  border: 0.5px solid var(--blue);
+  border-radius: 15px;
   box-shadow: 1px 2px 3px 2px rgb(0 0 0 / 0.1);
 `
 
@@ -44,14 +47,14 @@ const Header = styled.h3`
   height: 7vh;
   justify-content: center;
   align-items: center;
-  background: white;
-  color: rgb(208, 45, 38);
+  background: none;
+  color: var(--blue);
   font-size: 16px;
   border-radius: 15px 15px 0 0;
   border: none;
   text-transform: uppercase;
-  font-weight: 100;
-  text-decoration: underline double;
+  font-weight: 600;
+  text-decoration: underline;
 `
 
 const Text = styled.p`
@@ -59,10 +62,10 @@ const Text = styled.p`
   height: auto;
   justify-content: center;
   align-items: center;
-  background: white;
-  color: rgb(208, 45, 38);
+  background: var(--orange);
+  color: var(--blue);
   font-size: 16px;
   border-radius: 0 0 15px 15px;
-  margin: 10px 15px;
+  margin: 10px 15px 30px 10px;
   border: none;
 `

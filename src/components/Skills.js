@@ -19,10 +19,14 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   max-width: 800px;
+  background: var(--red);
+  padding: 8vh 3vh 3vh 3vh;
 
   h2 {
     padding: 0 0 5vh 0;
     text-transform: uppercase;
-    text-decoration: underline double;
+    text-decoration: underline;
+    color: var(--white);
+    background: var(--red);
   }
 `

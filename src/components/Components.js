@@ -44,7 +44,6 @@ const Content = styled.section`
 const Section = styled.section`
   width: 100%;
   border-radius: 15px;
-  padding: 4vh;
   display: flex;
   justify-content: center;
 `

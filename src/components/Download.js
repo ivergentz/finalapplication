@@ -47,7 +47,8 @@ const Wrapper = styled.section`
   align-items: start;
   flex-direction: column;
   max-width: 800px;
-  color: rgb(208, 45, 38);
+  background: var(--orange);
+  padding: 3vh;
 `
 const Button = styled.button`
   margin-bottom: 3vh;
@@ -56,10 +57,12 @@ const Button = styled.button`
   font-weight: bold;
   cursor: pointer;
   text-transform: uppercase;
-  color: rgb(208, 45, 38);
+  color: var(--blue);
+  background: var(--orange);
 
   &.active {
     font-weight: bold;
     font-size: 400px;
+    background: var(--orange);
   }
 `

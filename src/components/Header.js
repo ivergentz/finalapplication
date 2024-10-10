@@ -34,7 +34,7 @@ const HeaderSection = styled.section`
   top: 0;
   padding: 3vh 0 3vh 0;
   z-index: 10;
-  border-bottom: 0.5px solid red;
+  border-bottom: 0.5px solid var(--red);
   box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0);
 `
 
@@ -53,16 +53,16 @@ const TextSection = styled.div`
 
 const Name = styled.h1`
   font-weight: bold;
-  color: rgb(208, 45, 38);
+  color: var(--orange);
   font-size: 1rem;
   text-transform: uppercase;
 `
 const Subtitle = styled.p`
-  color: rgb(92, 71, 55);
+  color: var(--blue);
 `
 const Manager = styled.p`
   font-weight: bold;
   font-size: 1rem;
   text-transform: uppercase;
-  color: rgb(208, 45, 38);
+  color: var(--orange);
 `
